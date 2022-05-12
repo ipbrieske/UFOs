@@ -21,7 +21,7 @@ function buildTable(data) {
             let cell = row.append("td");
             cell.text(val);
         });
-    })
+    });
 };
 
 function handleClick() {
